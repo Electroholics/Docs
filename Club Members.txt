@@ -1,4 +1,4 @@
-Name             				Email
+Name             	Email
 Aditya	         aditya15123@iiitd.ac.in
 Amogh Vithalkar	 amogh14134@iiitd.ac.in
 Arpan Mondal	   arpan15132@iiitd.ac.in
