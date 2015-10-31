@@ -9,6 +9,6 @@ TinkerEve[4]: Discussion for Projects (Slides not available) - hosted on 29-09-2
 
 TinkerNights: <br>
 TinkerNight[1]: Basics of Embedded Programming - hosted on 06-10-2015 <br />
-TinkerNight[2]: Basics of ADC and Timers hosted on 12-10-2015<br />
+TinkerNight[2]: Basics of ADC and Timers - hosted on 12-10-2015<br />
 
-Tech-Quiz: Signal Processing, Analog electronics, Embedded Systems and Robotics  -hosted on 27-10-2015<br />
+Tech-Quiz: Signal Processing, Analog electronics, Embedded Systems and Robotics  - hosted on 27-10-2015<br />
