@@ -11,3 +11,5 @@ Session-4: Discussion for Projects (Slides not available) <br />
 
 TinkerNight [1]: Basics of Embedded Programming <br />
 TinkerNight [2]: Basics of ADC and Timers <br />
+
+Tech-Quiz: Signal Processing, Analog electronics, Embedded Systems and Robotics <br />
