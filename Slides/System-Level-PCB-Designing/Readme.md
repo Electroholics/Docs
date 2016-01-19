@@ -14,7 +14,7 @@ this could be an additional skill, worth adding to your CV’s
 
 <h3>Prerequisites:</h3> Some extra bonding for hardware design. Please bring a laptop 
 
-with a latest version of Cadsoft Eagle (freeware) and a high-resolution mouse.
+with a latest version of <a href="http://www.cadsoftusa.com/download-eagle/">Cadsoft Eagle (freeware)</a> and a high-resolution mouse.
 
 <h3>Topic to be covered:</h3>
 
