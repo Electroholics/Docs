@@ -1,4 +1,6 @@
-This week we are going have a detailed session on System level PCB designing
+<h3> Description: <h3> 
+
+This week we are going to have a detailed session on System level PCB designing
 
 (using Eagle CAD). However, this time we are not going to restrict ourselves to a 
 
@@ -10,11 +12,11 @@ Our target audience could be anyone from B.Tech, M.Tech or Ph.D. For ECE folks,
 
 this could be an additional skill, worth adding to your CV’s
 
-Prerequisites: Some extra bonding for hardware design. Please bring a laptop 
+<h3>Prerequisites:<h3> Some extra bonding for hardware design. Please bring a laptop 
 
 with a latest version of Cadsoft Eagle (freeware) and a high-resolution mouse.
 
-Topic to be covered:
+<h3>Topic to be covered:<h3>
 
 1. Block Level Design (Brief)
 
