@@ -1,4 +1,4 @@
-<h3> Description: </h3> 
+<h3>Description: </h3> 
 
 This week we are going to have a detailed session on System level PCB designing
 
