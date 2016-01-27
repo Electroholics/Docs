@@ -1,0 +1,33 @@
+** third order elliptic active filter **
+vin 1 0 pulse(-0.5 0.5 200us 200us 200us 2000us 4000us) dc 0 ac 1
+vcc     11      0       15.0
+vee     12      0       -15.0
+r1      1       2       11.5k
+r2      9       0       2.7k
+r3      2       3       3.16k
+r4      3       4       7.15k
+r5      6       4       7.15k
+r6      5       out     3.48k
+r7      7       out     53.6k
+r8      7       0       20.5k
+c1      2       3       .1u
+c2      3       5       .01u
+c3      6       5       .01u
+c4      4       0       .02u
+c5      6       0       .022u
+x1      9       2     11     12   3   lf156
+x2      6       7     11     12   out lf156
+.include lf156
+
+* Note: this next line is meaningful only in batch mode
+* when a raw file is produced 
+.save 1 out vin#branch
+*            (example of how to save the 
+*            current vector for the vin source)
+* Note: these next two lines are meaningful only in batch mode
+* or when the "run" command is given in interactive mode
+.AC dec 20 1 1meghz
+.tran 100us 6000us
+*************
+.end
+
