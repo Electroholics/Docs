@@ -1,0 +1,28 @@
+** 7th order Chebyshev LC lowpass filter **
+
+vin1 10 0 sin(0 2 10k) dc 0 ac 1
+vin2 1 10 sin(0 1 33k) dc 0 ac 0
+r1      1       2       50
+c1      2       0       715nf
+l1      2       3       909uh
+c2      3       0       1uf
+l2      3       4       953uh
+c3      4       0       1uf
+l3      4     out       909uh
+c4    out       0       715nf
+r2    out       0       50
+
+* Note: this next line is meaningful only in batch mode
+* when a raw file is produced
+.save 1 out
+
+* Note: this next line is meaningful only in batch mode
+* or when the "run" command is given in interactive mode
+.AC dec 100 200hz 20khz
+
+* Note: this next line is meaningful only in batch mode
+* when the -o option is used and the -r option is not
+.print ac vdb(1) db(out)
+*****
+.end
+

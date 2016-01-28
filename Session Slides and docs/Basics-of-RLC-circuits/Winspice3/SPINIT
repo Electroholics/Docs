@@ -1,0 +1,8 @@
+* Standard spice and nutmeg init file
+alias exit quit
+alias acct rusage all
+set x11lineararcs
+* the following from spice3e2 version (NJ)
+* set term=NO
+set hcopydevtype=postscript
+set hcopydev=laserplus
